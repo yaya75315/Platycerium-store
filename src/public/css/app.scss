@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+
+$green: #5e735e;
+$light-green: #7c967c;
+$dark-green: #445744;
+$beige-lighter: rgb(245, 245, 245);
+
+$family-sans-serif: "Noto Sans TC", sans-serif;
+$primary: $green;
+$link: $light-green;
+$danger: $light-green;
+
+$body-background-color: $beige-lighter;
+
+@import "../../../node_modules/bulma/bulma.sass";
